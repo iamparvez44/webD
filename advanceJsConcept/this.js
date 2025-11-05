@@ -65,20 +65,20 @@
 
 // function inside method (es6)==========> object
 
-let obj = {
-    fnc: function(){
-        let myfnc = ()=>{
-            console.log(this.age);
-        }
+// let obj = {
+//     fnc: function(){
+//         let myfnc = ()=>{
+//             console.log(this.age);
+//         }
 
-        myfnc();
-    },
-    name: "parvez",
-    age: 65,
-    company: "Glenmark"
-}
+//         myfnc();
+//     },
+//     name: "parvez",
+//     age: 65,
+//     company: "Glenmark"
+// }
 
-obj.fnc();
+// obj.fnc();
 
 // constructor fnc me this ki value - new blank obj
 // event listner me this ki value- that element jis per event lister laga ho
